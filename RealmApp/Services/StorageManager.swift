@@ -13,8 +13,8 @@ final class StorageManager {
     static let shared = StorageManager()
     
     private let realm: Realm
-    var config = Realm.Configuration()
     
+    var config = Realm.Configuration()
     
     private init() {
         do {
